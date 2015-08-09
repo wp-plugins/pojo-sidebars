@@ -5,7 +5,7 @@ Plugin URI: http://pojo.me/
 Description: Pojo Sidebars generates as many sidebars as you need. It then allows you to place them on any Post, Page or Custom Posts Type in your WordPress site.
 Author: Pojo Team
 Author URI: http://pojo.me/
-Version: 1.0.1
+Version: 1.0.2
 Text Domain: pojo-sidebars
 Domain Path: /languages/
 */
@@ -66,7 +66,7 @@ final class Pojo_Sidebars {
 		_doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'pojo-sidebars' ), '1.0.0' );
 	}
 
-	/**cd
+	/**
 	 * @return Pojo_Sidebars
 	 */
 	public static function instance() {
